@@ -6,6 +6,7 @@ import User from './components/pages/user/User';
 import NewUser from './components/pages/newUser/NewUser';
 import ProductList from './components/pages/productList/ProductList';
 import Product from './components/pages/product/Product';
+import NewProduct from './components/pages/newProduct/NewProduct';
 import './app.css';
 import { BrowserRouter as Router, Switch, Route } from 'react-router-dom';
 
@@ -35,7 +36,7 @@ function App() {
             <Product />
           </Route>
           <Route path='/newProduct'>
-            <NewUser />
+            <NewProduct />
           </Route>
         </Switch>
       </div>
